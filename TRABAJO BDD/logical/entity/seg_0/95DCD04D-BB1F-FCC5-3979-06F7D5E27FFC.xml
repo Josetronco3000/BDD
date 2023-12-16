@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="95DCD04D-BB1F-FCC5-3979-06F7D5E27FFC" name="EJERCICIOS">
+<createdBy>josetronco</createdBy>
+<createdTime>2023-11-26 14:30:36 UTC</createdTime>
+<ownerDesignName>TRABAJO BDD</ownerDesignName>
+<engineerTo>
+<item key="87B38834-43DC-11BC-BC94-C94110A30066" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nombre" id="E4A1C4B8-A2CA-9C20-3FBE-CA0ADB3F41B9">
+<createdBy>josetronco</createdBy>
+<createdTime>2023-11-26 14:30:55 UTC</createdTime>
+<ownerDesignName>TRABAJO BDD</ownerDesignName>
+<engineerTo>
+<item key="87B38834-43DC-11BC-BC94-C94110A30066" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="musculo_enfoque" id="8DE97E96-2825-8385-A018-625B6976178B">
+<createdBy>josetronco</createdBy>
+<createdTime>2023-11-26 14:31:09 UTC</createdTime>
+<ownerDesignName>TRABAJO BDD</ownerDesignName>
+<engineerTo>
+<item key="87B38834-43DC-11BC-BC94-C94110A30066" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="863F93CD-A061-2EAF-757D-8E2A27DF2AF0">
+<createdBy>josetronco</createdBy>
+<createdTime>2023-11-26 14:31:30 UTC</createdTime>
+<ownerDesignName>TRABAJO BDD</ownerDesignName>
+<engineerTo>
+<item key="87B38834-43DC-11BC-BC94-C94110A30066" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="video" id="4B7B87F8-ED3C-5EB1-4C22-1E7EF8C3CAAD">
+<createdBy>josetronco</createdBy>
+<createdTime>2023-11-26 14:31:46 UTC</createdTime>
+<ownerDesignName>TRABAJO BDD</ownerDesignName>
+<engineerTo>
+<item key="87B38834-43DC-11BC-BC94-C94110A30066" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT016</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="material" id="1C3B55C0-02A0-7993-6A95-EBB599B43395">
+<createdBy>josetronco</createdBy>
+<createdTime>2023-11-26 14:31:57 UTC</createdTime>
+<ownerDesignName>TRABAJO BDD</ownerDesignName>
+<engineerTo>
+<item key="87B38834-43DC-11BC-BC94-C94110A30066" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B9D84C2D-0FF9-CD7E-873A-70B6743E01FA" name="EJERCICIOS PK">
+<createdBy>josetronco</createdBy>
+<createdTime>2023-11-26 14:31:00 UTC</createdTime>
+<ownerDesignName>TRABAJO BDD</ownerDesignName>
+<engineerTo>
+<item key="87B38834-43DC-11BC-BC94-C94110A30066" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E4A1C4B8-A2CA-9C20-3FBE-CA0ADB3F41B9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

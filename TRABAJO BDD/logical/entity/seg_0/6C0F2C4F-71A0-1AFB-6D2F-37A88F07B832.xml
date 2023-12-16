@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6C0F2C4F-71A0-1AFB-6D2F-37A88F07B832" name="ENTRENADOR">
+<createdBy>josetronco</createdBy>
+<createdTime>2023-11-26 14:12:51 UTC</createdTime>
+<ownerDesignName>TRABAJO BDD</ownerDesignName>
+<engineerTo>
+<item key="87B38834-43DC-11BC-BC94-C94110A30066" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>96BBA75A-FD4D-CAA1-7369-329F4FBEC776</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="horario" id="2940E0B2-8598-896A-1CA2-B84A43FFB0A2">
+<createdBy>josetronco</createdBy>
+<createdTime>2023-11-26 14:13:08 UTC</createdTime>
+<ownerDesignName>TRABAJO BDD</ownerDesignName>
+<engineerTo>
+<item key="87B38834-43DC-11BC-BC94-C94110A30066" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

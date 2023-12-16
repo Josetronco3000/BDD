@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="166F3C57-8418-79D7-FE4C-7687BB11233B" name="DIETAS">
+<createdBy>josetronco</createdBy>
+<createdTime>2023-11-26 14:15:54 UTC</createdTime>
+<ownerDesignName>TRABAJO BDD</ownerDesignName>
+<engineerTo>
+<item key="87B38834-43DC-11BC-BC94-C94110A30066" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_dieta" id="EE66F014-5237-84F6-6C2F-EF009F29D356">
+<createdBy>josetronco</createdBy>
+<createdTime>2023-11-26 14:16:19 UTC</createdTime>
+<ownerDesignName>TRABAJO BDD</ownerDesignName>
+<engineerTo>
+<item key="87B38834-43DC-11BC-BC94-C94110A30066" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="1FFA4446-687E-18A4-23FE-A85D8BED3343">
+<createdBy>josetronco</createdBy>
+<createdTime>2023-11-26 14:16:52 UTC</createdTime>
+<ownerDesignName>TRABAJO BDD</ownerDesignName>
+<engineerTo>
+<item key="87B38834-43DC-11BC-BC94-C94110A30066" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="calorias" id="2B23CB0B-5793-2A44-E8D3-105D6C17A14F">
+<createdBy>josetronco</createdBy>
+<createdTime>2023-11-26 14:17:15 UTC</createdTime>
+<ownerDesignName>TRABAJO BDD</ownerDesignName>
+<engineerTo>
+<item key="87B38834-43DC-11BC-BC94-C94110A30066" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ingredientes" id="29FA1D16-3AF6-5D6C-89E5-F9E89CFB8F9B">
+<createdBy>josetronco</createdBy>
+<createdTime>2023-11-26 14:17:42 UTC</createdTime>
+<ownerDesignName>TRABAJO BDD</ownerDesignName>
+<engineerTo>
+<item key="87B38834-43DC-11BC-BC94-C94110A30066" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="4904E974-2C6E-D941-EFCC-C805AE15902B">
+<createdBy>josetronco</createdBy>
+<createdTime>2023-11-26 14:18:09 UTC</createdTime>
+<ownerDesignName>TRABAJO BDD</ownerDesignName>
+<engineerTo>
+<item key="87B38834-43DC-11BC-BC94-C94110A30066" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nivel_dificultad" id="9DCBF717-73C9-2FC5-A386-2066C13EC4DE">
+<createdBy>josetronco</createdBy>
+<createdTime>2023-11-26 14:18:51 UTC</createdTime>
+<ownerDesignName>TRABAJO BDD</ownerDesignName>
+<engineerTo>
+<item key="87B38834-43DC-11BC-BC94-C94110A30066" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracion" id="FDEB9560-225E-2212-6FF3-D34ED8B88E5A">
+<createdBy>josetronco</createdBy>
+<createdTime>2023-11-26 14:19:07 UTC</createdTime>
+<ownerDesignName>TRABAJO BDD</ownerDesignName>
+<engineerTo>
+<item key="87B38834-43DC-11BC-BC94-C94110A30066" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="foto" id="A9E26E38-C859-6B67-5229-FFEF63420D29">
+<createdBy>josetronco</createdBy>
+<createdTime>2023-11-26 14:19:22 UTC</createdTime>
+<ownerDesignName>TRABAJO BDD</ownerDesignName>
+<engineerTo>
+<item key="87B38834-43DC-11BC-BC94-C94110A30066" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A32B0270-13A1-0BB7-4EA7-6FA93AB4700D" name="DIETAS PK">
+<createdBy>josetronco</createdBy>
+<createdTime>2023-11-26 14:16:23 UTC</createdTime>
+<ownerDesignName>TRABAJO BDD</ownerDesignName>
+<engineerTo>
+<item key="87B38834-43DC-11BC-BC94-C94110A30066" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE66F014-5237-84F6-6C2F-EF009F29D356</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="TRABAJO BDD" id="B16AB97E-822B-543F-37FD-7630FA534E7C" version="3.5">
+<createdBy>josetronco</createdBy>
+<createdTime>2023-11-26 13:58:05 UTC</createdTime>
+<ownerDesignName>TRABAJO BDD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B16AB97E-822B-543F-37FD-7630FA534E7C</designId>
+</OSDM_Design>
